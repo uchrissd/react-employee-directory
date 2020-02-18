@@ -40,9 +40,11 @@ class MainContainer extends Component {
 
   render() {
     return (
-      
+      <div>
+        <Header />
+      </div>
     );
   }
 }
 
-export default OmdbContainer;
+export default MainContainer;
