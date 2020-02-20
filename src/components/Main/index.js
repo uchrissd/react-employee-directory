@@ -1,7 +1,8 @@
+//Import REACT requirements and componenets
 import React, { Component } from "react";
 import DataArea from "../DataArea/index";
 import DataBody from "../DataBody/index";
-import DataTable from "../DataTable/index";
+import EmployeeTable from "../DataTable/index";
 import Nav from "../Nav/index";
 import Header from "../Header/index";
 import SearchBox from "../SearchBox/index";
@@ -38,10 +39,12 @@ class MainContainer extends Component {
     console.log(this.state.employeeSearch);
   };
 
+  // Render compoments to the DOM here
   render() {
     return (
       <div>
         <Header />
+        <EmployeeTable />
       </div>
     );
   }

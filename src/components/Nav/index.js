@@ -4,6 +4,7 @@ import SearchBox from "../SearchBox/index";
 function Nav(props) {
   return (
     <nav>
+      <a className="navbar-brand">Employee Directory</a>
       <SearchBox />
     </nav>
   );
