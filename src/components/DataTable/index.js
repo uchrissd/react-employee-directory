@@ -1,20 +1,12 @@
 import React from "react";
-import DataBody from "../DataBody/index";
+import DataBody from "./DataBody";
 
-const EmployeeTable = props => {
+function DataTable(props) {
   return (
-    <table>
-      <thead>
-        <tr>
-          <th scope="col">Image</th>
-          <th scope="col">Name</th>
-          <th scope="col">Phone</th>
-          <th scope="col">Email</th>
-          <th scope="col">DOB </th>
-        </tr>
-      </thead>
-    </table>
+    <div className="container">
+      <DataBody result={props.results} />
+    </div>
   );
-};
+}
 
-export default EmployeeTable;
+export default DataTable;
