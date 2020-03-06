@@ -12,11 +12,11 @@ function DataBody(props) {
     <table>
       <thead>
         <tr>
-          <th style={tableStyle}>Image</th>
-          <th style={tableStyle}>Name</th>
-          <th style={tableStyle}>Phone</th>
-          <th style={tableStyle}>Email</th>
-          <th style={tableStyle}>Date of Birth</th>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Date of Birth</th>
         </tr>
       </thead>
       <tbody>
@@ -29,7 +29,7 @@ function DataBody(props) {
                 src={result.picture.thumbnail}
               />
             </td>
-            <td style={tableRowStyle}>
+            <td>
               {result.name.first} {result.name.last}
             </td>
             <td>{result.phone}</td>
