@@ -1,10 +1,10 @@
 //Import REACT requirements and componenets
 import React, { Component } from "react";
-import DataBody from "../DataBody/index";
+// import DataBody from "../DataBody/index";
 import DataTable from "../DataTable/index";
-import Nav from "../Nav/index";
+// import Nav from "../Nav/index";
 import Header from "../Header/index";
-import SearchBox from "../SearchBox/index";
+// import SearchBox from "../SearchBox/index";
 import Wrapper from "../Wrapper/index";
 import API from "../../utils/API";
 
@@ -41,10 +41,10 @@ class MainContainer extends Component {
   // Render compoments to the DOM here
   render() {
     return (
-      <div>
+      <Wrapper>
         <Header />
         <DataTable />
-      </div>
+      </Wrapper>
     );
   }
 }
