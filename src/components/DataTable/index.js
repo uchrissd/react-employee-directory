@@ -1,5 +1,5 @@
 import React from "react";
-import DataBody from "./DataBody";
+import DataBody from "../DataBody/index";
 
 function DataTable(props) {
   return (
