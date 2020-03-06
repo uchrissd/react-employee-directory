@@ -1,6 +1,5 @@
 //Import REACT requirements and componenets
 import React, { Component } from "react";
-import DataArea from "../DataArea/index";
 import DataBody from "../DataBody/index";
 import EmployeeTable from "../DataTable/index";
 import Nav from "../Nav/index";
